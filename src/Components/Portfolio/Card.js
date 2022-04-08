@@ -34,15 +34,12 @@ const Card = (props) => {
             <div className='modal-text right'>
               <span>Featured - Design</span>
               <h1>{props.title}</h1>
-              <p>
-              Lorem ipsum odor amet, consectetuer adipiscing elit. Imperdiet erat nullam tortor quis elit lacus
-              blandit vitae. Nostra dapibus bibendum; curae magnis commodo metus vestibulum tristique. Tristique
-            </p>
+              <p>{props.about}</p>
             <div className='button f_flex mtop'>
               <button className='btn btn_shadow uppercase'>
                 like <i className='far fa-thumbs-up'></i>
               </button>
-              <button className='btn btn_shadow uppercase'>
+              <button className='btn btn_shadow uppercase' onClick={()=> window.open(props.link, "_blank")}>
                 view project <i className='fas fa-chevron-right'></i>
               </button>
             </div>

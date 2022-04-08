@@ -19,6 +19,8 @@ const Portfolio = () => {
                     {Portfolio_data.map((val, index) =>{
                         return <Card key={index} image={val.image} title={val.title} 
                         category={val.category}
+                        about={val.about}
+                        link={val.link}
                         totalLikes={val.totalLikes} /> 
                         })}
                 </div>

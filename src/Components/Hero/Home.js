@@ -51,12 +51,12 @@ const Home = () => {
                     <i className='fab fa-twitter'></i>
                   </button>
                   </a>
-                  <a href='https://twitter.com/BabsTohir'>
+                  <a href='https://github.com/TohirBabs'>
                   <button className='btn_shadow'>
                     <i className='fab fa-github'></i>
                   </button>
                   </a>
-                  <a href='https://twitter.com/BabsTohir'>
+                  <a href='https://www.linkedin.com/in/tohir-babs-6a0045167/'>
                   <button className='btn_shadow'>
                   <i className='fab fa-linkedin-in'></i>
                   </button>
@@ -67,15 +67,22 @@ const Home = () => {
               <div className='col_2'>
                 <h4 className='uppercase'>best skill on</h4>
 
-                <button className='btn_shadow'>
-                    <img src={js} alt='' />
-                </button>
-                <button className='btn_shadow'>
-                    <img src={sass} alt='' />
-                </button>
-                <button className='btn_shadow'>
-                    <img src={react} alt='' />
-                </button>
+                <a href='https://tohirbabs.github.io/gameboy_wordle/'>
+                  <button className='btn_shadow'>
+                      <img src={js} alt='' />
+                  </button>
+                </a>
+                <a href='https://easybankhomepage.netlify.app/'>
+                  <button className='btn_shadow'>
+                      <img src={sass} alt='' />
+                  </button>
+                </a>
+                <a href='https://conwaygof.netlify.app/'>
+                  <button className='btn_shadow'>
+                      <img src={react} alt='' />
+                  </button>
+                </a>
+
               </div>
             </div>
           </div>

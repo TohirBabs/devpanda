@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./Header.css"
 import logo from "./logo.jpg"
+import panda from './dev_panda.png'
 
 const Header = () => {
     // when scroll header at top
@@ -18,8 +19,8 @@ const Header = () => {
         <header className='header' id='header'>
             <div className='container d_flex'>
                 <div className='logo f_flex'>
-                    <img src={logo} alt='' />
-                    <h1 className='name uppercase'>tohir babs</h1>
+                    <img src={panda} alt='' />
+                    <h1 className='name'>dev_panda</h1>
                 </div>
 
                 <div className='navlink d_flex'>

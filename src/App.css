@@ -1,38 +1,203 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap');
+
+:root{
+  --primary-clr: royalblue;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: monospace, "Poppins", sans-serif;
+  background-color: #ecf0f3;
+}
+
+img{
+  display: block;
+}
+
+.container{
+  max-width: 95%;
+  margin: auto;
+}
+
+.d_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f_flex{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  font-family: monospace;
+}
+
+li{
+  list-style: none;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+button{
+  font-family: monospace;
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+button:hover,
+.box:hover{
+  background:var(--primary-clr);
+  color: white;
+  transform: translateY(-10px);
+}
+
+
+section{
+  padding: 3rem 1rem;
+}
+
+.btn_shadow{
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.5s all ease;
+  cursor: pointer;
+  color: #000;
+}
+
+.btn_shadow{
+  background: linear-gradient(145deg, #e2e8ec, #ffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffff;
+}
+
+.box_shadow{
+  background: linear-gradient(145deg, #e2e8ec, #ffff);
+  box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffff;
+  border-radius: 10px;
+}
+
+
+.row,
+.left,
+.right{
+  width: 50%;
+}
+
+.top{
+  margin-top: 80px;
+}
+
+.mtop{
+  margin-top: 20px;
+}
+
+.heading{
+  margin: 50px 0;
+}
+
+.heading h4{
+  color: var(--primary-clr);
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.heading h1{
+  font-size: 60px;
+  color: #3c3e41;
+}
+
+.heading h2{
+  font-size: 40px;
+  color: #3c3e41;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+p{
+  color: #3c3e41;
+}
+
+.text-center{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box h2{
+  margin: 20px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box p{
+  word-spacing: 2px;
+  transition: 0.5s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.box i{
+  font-size: 30px;
+  margin-top: 20px;
+  transition: o.5s;
+  opacity: 0;
+}
+
+.box:hover i{
+  opacity: 1;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+textarea,
+input{
+  width: 100%;
+  padding:20px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #e2e8ec;
+  margin-bottom: 20px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+footer{
+  margin: 20% 0 10% 0;
+}
+
+@media (max-width: 768px) {
+    .grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .left, .right{
+      width: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+  .heading h1{
+    font-size: 2.8rem;
   }
 }

@@ -1,0 +1,63 @@
+.features{
+    padding: 3rem 1rem;
+}
+
+.features .box:hover{
+    background: royalblue;
+}
+
+.box h2{
+    margin: 20px 0;
+}
+
+.box p{
+    word-spacing: 2px;
+    transition: 0.5s;
+}
+
+.features .box img{
+    width: 64px;
+    height: 64px;
+}
+
+.box i{
+    font-size: 30px;
+    margin-top: 20px;
+    transition: o.5s;
+    opacity: 0;
+}
+
+.box:hover i{
+    opacity: 1;
+    color: royalblue;
+}
+
+.features .grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.features .box{
+    width: 45%;
+}
+
+.box:hover img{
+    transition: 0.5s;
+}
+
+
+
+@media (max-width: 640px) {
+
+    
+    .features .box{
+        width: 75%;
+    }
+}
+
+@media (max-width: 570px) {
+    .features .box{
+        width: 95%;
+    }
+}

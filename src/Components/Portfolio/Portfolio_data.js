@@ -50,11 +50,12 @@ const Portfolio_data = [
   {
     id: 6,
     category: "WEB DESIGN",
-    totalLikes: "338",
-    title: "A landing page for mobile site",
-    image: "/images/easybank.png",
-    about: "",
-    link: "https://easybankhomepage.netlify.app/#",
+    totalLikes: "143",
+    title: "A Nintendo like UI of the wordle game",
+    image: "/images/gameboy-wordle.png",
+    about:
+      "A fresh take on the UI of the very popular wordle game, which is just my way of making it a little bit more interesting with the classic nintendo nostalgic feel. the design is mobile view biased but im working on its responsiveness",
+    link: "https://tohirbabs.github.io/gameboy_wordle/",
   },
   {
     id: 7,
@@ -69,12 +70,11 @@ const Portfolio_data = [
   {
     id: 8,
     category: "WEB DESIGN",
-    totalLikes: "143",
-    title: "A Nintendo like UI of the wordle game",
-    image: "/images/gameboy-wordle.png",
-    about:
-      "A fresh take on the UI of the very popular wordle game, which is just my way of making it a little bit more interesting with the classic nintendo nostalgic feel. the design is mobile view biased but im working on its responsiveness",
-    link: "https://tohirbabs.github.io/gameboy_wordle/",
+    totalLikes: "338",
+    title: "A landing page for mobile site",
+    image: "/images/easybank.png",
+    about: "",
+    link: "https://easybankhomepage.netlify.app/#",
   },
 ];
 

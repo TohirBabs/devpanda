@@ -8,17 +8,16 @@ const Portfolio_data = [
     about: "",
     link: "https://southsidefood.vercel.app/",
   },
-
   {
     id: 2,
-    category: "WEB DESIGN",
-    totalLikes: "143",
-    title: "A Nintendo like UI of the wordle game",
-    image: "/images/gameboy-wordle.png",
-    about:
-      "A fresh take on the UI of the very popular wordle game, which is just my way of making it a little bit more interesting with the classic nintendo nostalgic feel. the design is mobile view biased but im working on its responsiveness",
-    link: "https://tohirbabs.github.io/gameboy_wordle/",
+    category: "FRONTEND DEVELOPMENT",
+    totalLikes: "338",
+    title: "A Landing Page for a start-up delivery logistics company",
+    image: "/images/moveable2.png",
+    about: "",
+    link: "https://moveables.netlify.app/",
   },
+
   {
     id: 3,
     category: "WEB DESIGN",
@@ -66,6 +65,16 @@ const Portfolio_data = [
     about:
       "Some crazy idea I had while developing another project to try rendering my workspace window in HTML ans CSS only, pretty much like a screenshot of my window in my browser. This was developed for as desktop view so don't expect too much if you're using a mobile device.",
     link: "https://tohirbabs.github.io/visual-studio-screenshot/",
+  },
+  {
+    id: 8,
+    category: "WEB DESIGN",
+    totalLikes: "143",
+    title: "A Nintendo like UI of the wordle game",
+    image: "/images/gameboy-wordle.png",
+    about:
+      "A fresh take on the UI of the very popular wordle game, which is just my way of making it a little bit more interesting with the classic nintendo nostalgic feel. the design is mobile view biased but im working on its responsiveness",
+    link: "https://tohirbabs.github.io/gameboy_wordle/",
   },
 ];
 

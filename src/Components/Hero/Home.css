@@ -53,11 +53,11 @@
 }
 
 .hero_btn button{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .hero .col_2 button{
-    padding: 15px 20px;
+    padding: 12px 15px;
 }
 
 .hero_btn i{
@@ -101,6 +101,8 @@
         width: 56%;
     }
 
+        
+
     .hero h1{
         font-size: 40px;
     }
@@ -132,6 +134,11 @@
 
 
 @media (max-width: 1020px) {
+
+    .hero p {
+        font-size: 1rem;
+        line-height: 25px;
+        }
 
     .hero{
         padding-top: 0.5rem;
@@ -172,15 +179,16 @@
 
 
     .hero h1{
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
     
     .hero h1 span{
-        font-size: 3.2rem;
+        display: block;
+        font-size: 2.5rem;
     }
     
     .hero h2{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .hero h2 span{

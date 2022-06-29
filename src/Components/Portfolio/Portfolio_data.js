@@ -17,9 +17,19 @@ const Portfolio_data = [
     about: "",
     link: "https://moveables.netlify.app/",
   },
-
   {
     id: 3,
+    category: "WEB DESIGN",
+    totalLikes: "160",
+    title: "A Drone services progressive web app",
+    image: "/images/spacial.png",
+    about:
+      "An effort of me and a group of similarly young tech enthusiasts to develop specially designed drone services and provide these services in a wide range of sectors from agriculture to security.",
+    link: "https://www.spacialnova.com/",
+  },
+
+  {
+    id: 4,
     category: "WEB DESIGN",
     totalLikes: "160",
     title: "A music player site with minimalistic design",
@@ -29,7 +39,7 @@ const Portfolio_data = [
     link: "https://tohirbabs.github.io/MUSIC-PLAYER/",
   },
   {
-    id: 4,
+    id: 5,
     category: "WEB DESIGN",
     totalLikes: "200",
     title: "Conway's game of life in action with classic nintendo UI",
@@ -39,7 +49,7 @@ const Portfolio_data = [
     link: "https://conwaygof.netlify.app/",
   },
   {
-    id: 5,
+    id: 6,
     category: "WEB DESIGN",
     totalLikes: "277",
     title: "An HTML & CSS only clone of my twitter homepage",
@@ -48,7 +58,7 @@ const Portfolio_data = [
     link: "https://tohirbabs.github.io/twitter_homepage/",
   },
   {
-    id: 6,
+    id: 7,
     category: "WEB DESIGN",
     totalLikes: "143",
     title: "A Nintendo like UI of the wordle game",
@@ -58,7 +68,17 @@ const Portfolio_data = [
     link: "https://tohirbabs.github.io/gameboy_wordle/",
   },
   {
-    id: 7,
+    id: 8,
+    category: "WEB DESIGN",
+    totalLikes: "280",
+    title:
+      "An IBM challenge to develop green solutions using web 3 technologies",
+    image: "/images/greeth.png",
+    about: "",
+    link: "https://greeeth.pages.dev/process",
+  },
+  {
+    id: 9,
     category: "WEB DESIGN",
     totalLikes: "280",
     title: "A static Clone of my Visual Studio Code Window",
@@ -68,7 +88,7 @@ const Portfolio_data = [
     link: "https://tohirbabs.github.io/visual-studio-screenshot/",
   },
   {
-    id: 8,
+    id: 10,
     category: "WEB DESIGN",
     totalLikes: "338",
     title: "A landing page for mobile site",

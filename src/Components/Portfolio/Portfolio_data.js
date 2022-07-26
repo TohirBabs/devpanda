@@ -75,7 +75,7 @@ const Portfolio_data = [
       "An IBM challenge to develop green solutions using web 3 technologies",
     image: "/images/greeth.png",
     about: "",
-    link: "https://greeeth.pages.dev/process",
+    link: "https://greeeth.vercel.app/",
   },
   {
     id: 9,

@@ -39,6 +39,16 @@ const Portfolio_data = [
     link: "https://tohirbabs.github.io/MUSIC-PLAYER/",
   },
   {
+    id: 8,
+    category: "WEB DESIGN",
+    totalLikes: "280",
+    title:
+      "An IBM challenge to develop green solutions using web 3 technologies",
+    image: "/images/greeth.png",
+    about: "",
+    link: "https://www.greeeth.com/",
+  },
+  {
     id: 5,
     category: "WEB DESIGN",
     totalLikes: "200",
@@ -67,16 +77,7 @@ const Portfolio_data = [
       "A fresh take on the UI of the very popular wordle game, which is just my way of making it a little bit more interesting with the classic nintendo nostalgic feel. the design is mobile view biased but im working on its responsiveness",
     link: "https://tohirbabs.github.io/gameboy_wordle/",
   },
-  {
-    id: 8,
-    category: "WEB DESIGN",
-    totalLikes: "280",
-    title:
-      "An IBM challenge to develop green solutions using web 3 technologies",
-    image: "/images/greeth.png",
-    about: "",
-    link: "https://greeeth.vercel.app/",
-  },
+
   {
     id: 9,
     category: "WEB DESIGN",

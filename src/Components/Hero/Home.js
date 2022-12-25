@@ -45,10 +45,10 @@ const Home = () => {
             </h2>
 
             <p>
-              I'm a 21 year old with ever burning curiosity and a deep
-              fascinaton with web technologies which motivates me to build and
-              develop web applications that optimizes user experiences with
-              minimalist principles
+              I have a burning curiosity and a deep fascinaton with web
+              technologies which motivates me to build and develop web
+              applications that optimizes user experiences with minimalist
+              principles
             </p>
 
             <div className="hero_btn d_flex">

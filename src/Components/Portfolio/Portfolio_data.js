@@ -1,7 +1,7 @@
 const Portfolio_data = [
   {
     id: 1,
-    category: "FRONTEND DEVELOPMENT",
+    category: "FRONTEND DEV",
     totalLikes: "336",
     title: "An E-Commerse Site for some Restarant",
     image: "/images/southside.png",

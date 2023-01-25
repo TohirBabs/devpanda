@@ -12,7 +12,7 @@ const Portfolio_data = [
     id: 2,
     category: "FRONTEND DEVELOPMENT",
     totalLikes: "338",
-    title: "A Landing Page for a start-up delivery logistics company",
+    title: "A Landing Page for a start_up delivery logistics company",
     image: "/images/moveable2.png",
     about: "",
     link: "https://moveables.netlify.app/",

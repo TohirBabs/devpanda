@@ -24,7 +24,7 @@ const Portfolio_data = [
     title: "A Drone services progresssive web app",
     image: "/images/spacial.png",
     about:
-      "An effort of me and a group of similarly young tech enthusiasts to develop specially designed drone services and provide these services in a wide range of sectors from agriculture to security.",
+      "An effort of me and  group of similarly young tech enthusiasts to develop specially designed drone services and provide these services in a wide range of sectors from agriculture to security.",
     link: "https://www.spacialnova.com/",
   },
 

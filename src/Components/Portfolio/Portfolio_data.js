@@ -21,7 +21,7 @@ const Portfolio_data = [
     id: 3,
     category: "WEB DESIGN",
     totalLikes: "160",
-    title: "A Drone services progresssive web app",
+    title: "A Drone services progressive web app",
     image: "/images/spacial.png",
     about:
       "An effort of me and  group of similarly young tech enthusiasts to develop specially designed drone services and provide these services in a wide range of sectors from agriculture to security.",

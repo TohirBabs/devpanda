@@ -3,7 +3,7 @@ const Portfolio_data = [
     id: 1,
     category: "FRONTEND DEVELOPMENT",
     totalLikes: "338",
-    title: "An E-Commerce Site for a Restaurant",
+    title: "An E-Commerce Site for some Restaurant",
     image: "/images/southside.png",
     about: "",
     link: "https://southsidefood.vercel.app/",

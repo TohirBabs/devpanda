@@ -49,7 +49,7 @@ const Contact = () => {
                 <div className="details">
                   <h1>Tnds Balikesne</h1>
                   <p>
-                    'Lorem ipsum odor amet, consectetuer adipiscing elit.
+                    'Lorem ips odor amet, consectetuer adipiscing elit.
                     Imperdiet erat nullam tortor quis elit lacus blandit vitae.
                     Nostra dapibus bibendum; curae magnis commodo metus
                     tristique'

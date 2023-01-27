@@ -55,7 +55,7 @@ const Contact = () => {
                     tristique'
                   </p>
                   <br />
-                  <p>Phone: +234 817 715 8461</p>
+                  <p>Phone: +234 817 7461</p>
                   <p>Email: tohirbabs@gmail.com</p> <br />
                   <span>FIND ME WIT</span>
                   <div className="button f_flex">

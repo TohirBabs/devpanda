@@ -52,7 +52,7 @@ const Contact = () => {
                     'Lorem ipsum odor amet, consectetuer adipiscing elit.
                     Imperdiet erat nullam tortor quis elit lacus blandit vitae.
                     Nostra dapibus bibendum; curae magnis commodo metus
-                    vestibulum tristique'
+                    tristique'
                   </p>
                   <br />
                   <p>Phone: +234 817 715 8461</p>

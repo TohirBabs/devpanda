@@ -57,7 +57,7 @@ const Contact = () => {
                   <br />
                   <p>Phone: +234 817 715 8461</p>
                   <p>Email: tohirbabs@gmail.com</p> <br />
-                  <span>FIND ME WITH</span>
+                  <span>FIND ME WIT</span>
                   <div className="button f_flex">
                     <button className="btn_shadow">
                       <i className="fab fa-facebook-f"></i>

@@ -40,7 +40,7 @@ const Card = (props) => {
                     className="btn btn_shadow uppercase"
                     onClick={() => window.open(props.link, "_blank")}
                   >
-                    view project <i className="fas fa-chevron-right"></i>
+                    view the project <i className="fas fa-chevron-right"></i>
                   </button>
                 </div>
                 <button

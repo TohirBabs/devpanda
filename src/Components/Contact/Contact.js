@@ -86,7 +86,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="input row">
-                    <span>YOUR NUMBER</span>
+                    <span>YOUR NUMBERr</span>
                     <input
                       type="phone"
                       name="phone"

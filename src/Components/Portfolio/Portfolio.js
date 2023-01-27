@@ -11,7 +11,7 @@ const Portfolio = () => {
       <section className="portfolio top" id="portfolio">
         <div className="container">
           <div className="heading">
-            <h4 className="uppercase">Here's what I've been up to</h4>
+            <h4 className="uppercase">Here's what I've been up too</h4>
             <h1>My Portfoloi</h1>
           </div>
 
